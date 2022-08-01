@@ -16,8 +16,8 @@ You can find more information on this tool usage [in this repository](https://gi
 ## Setup
 
 Run a simple server that logs all HTTP requests it receives in your lab environment.
-You can use our public tool that does exactly the same.
-You can run through the following command:
+You can use [our public tool](https://github.com/CycodeLabs/simple-http-logger) that does exactly the same.
+You can run it through the following command:
 
 ```bash
 sudo docker run --rm -it -p 8080:8080 cycodelabs/simple-http-logger
